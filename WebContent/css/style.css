@@ -1,0 +1,225 @@
+@charset "UTF-8";
+
+*
+{
+	margin: 0px;
+	padding: 0px;
+}
+
+body
+{
+	font-size: 9pt;
+}
+
+a
+{
+	cursor: pointer;
+	color: #000000;
+	text-decoration: none;
+	font-size: 9pt;
+	line-height: 150%;
+}
+
+a:hover, a:active
+{
+	font-size: 9pt;
+	color: #F28011;
+	text-decoration: underline;
+}
+
+ul{list-style: none;}
+
+td{font-size: 9pt;}
+
+
+.btn
+{
+	color: #000000;
+	/* font: normal 9pt '돋움'; */
+	font-size: 9pt;
+	font-weight: bold;
+	background-color: #E4E4E4;
+	border: 1px solid;
+	border-color: #3860a1;
+	border-radius: 10px;
+	line-height: 16px;
+	padding: 2px 8px 2px 8px;
+}
+
+.btn:hover
+{
+	color: white;
+	border-color: white;
+	background-color: #3860a1;
+}
+
+
+/*================[MainPage.jsp]===================*/
+
+/*---- 레이아웃 박스 ----*/
+#Main_TitleBox
+{
+	width: 400px;
+	height: 80px;
+	background-color: #d5e1f5;
+	margin: auto;
+	margin-top: 10px;
+	padding: 10px;
+	border-radius: 40px;
+}
+#Main_TitleBox>#mainTitle
+{
+	background-color: white;
+	border-style: solid;
+	border-color: #afc0db;
+	width: 380px;
+	margin: auto;
+	border-radius: 20px;
+	font-size: 20pt;
+}
+
+#searchBox
+{
+	width: 300px;
+	height: 20px;
+	background-color: #d5e1f5;
+	margin: auto;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	padding: 10px;
+	border-radius: 30px;
+	
+	font-weight: bold;
+	font-size: 10pt;
+}
+
+/*--- 가게 목록 테이블--- */
+#resListTbl
+{
+    border: 1px;
+    border-radius: 10px;
+    background-color: white;
+    margin: auto;
+    text-align: center;
+}
+
+
+/*===================[StorePage.jsp]==================*/
+
+/* 상호명 */
+#resName
+{
+	background-color: white;
+	border-style: solid;
+	border-color: #afc0db;
+	width: 380px;
+	margin: auto;
+	border-radius: 20px;
+}
+
+#reviewInsertBox>#titleInsert , #reviewListBox> #titleList 
+{
+	background-color: white;
+	border-style: solid;
+	border-color: #afc0db;
+	width: 120px;
+	margin: auto;
+	margin-bottom: 5px;
+	border-radius: 20px;
+}
+
+/*------- 리뷰 등록 박스 메뉴 --------*/
+
+#recNum {width: 70px;}
+#name {width: 100px;}
+#pw {width: 100px;}
+#review {width: 250px;}
+
+/*--- 리뷰 목록 테이블 ---*/
+
+#reviewList
+{
+	width: 800px;
+    border: 1px;
+    border-radius: 10px;
+    background-color: white;
+}
+#firstRow{  background-color: #afc0db; }
+
+#reviewList .starCount {width: 30px;}
+#reviewList .uName {width: 80px;}
+#reviewList .reviewCon {width: 240px;}
+#reviewList .created {width: 90px;}
+#reviewList .remove {width: 100px;}
+#reviewList #pwBox{width: 90px}
+
+
+/*---- 레이아웃 박스 --------*/
+
+#outerBox
+{
+	width: 1000px;
+	height: 830px;
+	background-color: #3860a1;
+	margin: auto;
+	margin-top: 20px;
+	padding: 10px;
+	border-radius: 40px;
+}
+
+#titleBox
+{
+	width: 400px;
+	height: 80px;
+	background-color: #d5e1f5;
+	margin: auto;
+	margin-top: 10px;
+	padding: 10px;
+	border-radius: 40px;
+}
+
+#reviewInsertBox
+{
+	width: 800px;
+	height: 60px;
+	background-color: #d5e1f5;
+	margin: auto;
+	margin-top: 10px;
+	padding: 10px;
+	border-radius: 30px;
+}
+
+#reviewListBox
+{
+	width: 800px;
+	height: 500px;
+	background-color: #d5e1f5;
+	margin: auto;
+	margin-top: 10px;
+	padding: 10px;
+	border-radius: 30px;
+}
+
+/* 하단 페이지 넘버, 메인 돌아가기 버튼 */
+#pageNums
+{
+	margin-top: 4px;
+	font-size: 12pt;
+	font-weight: bold;
+	color: #d5e1f5;
+	text-align: center;
+}
+#backToMain
+{
+	margin-top: 5px;
+	background-color: #3860a1;
+	height: 25px;
+	font-size: 12pt;
+}
+
+
+
+
+
+
+
