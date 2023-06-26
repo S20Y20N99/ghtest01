@@ -24,6 +24,9 @@
 		/* 담은 식당 코드를 담아 storePage(StorePage:각 식당 페이지를 불러온다.)  */
 		f.action = "storepage";
 		f.submit();
+		
+		//변경사항
+		alert("확인");
 	}
 
 </script>
